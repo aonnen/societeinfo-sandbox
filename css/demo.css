@@ -1,0 +1,30 @@
+/*!
+ * jQuery UI Bootstrap (0.22)
+ * http://addyosmani.github.com/jquery-ui-bootstrap
+ *
+ * Copyright 2012, Addy Osmani
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * Portions copyright jQuery UI & Twitter Bootstrap
+ */
+
+ul, ol {
+	padding: 0 !important;
+	margin: 0 0 0 0 !important;
+}
+
+.table-font-bold {
+	font-weight : bold;
+}
+
+.company_input {
+	width : 400px;
+}
+
+.company_name {
+	color : #333333;
+}
+
+.company_address {
+	color : #666666;
+}
