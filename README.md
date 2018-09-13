@@ -1,10 +1,13 @@
 Sandbox
 ------------
 
-Cette sandbox inclue les exemples suivants d'intégration de [l'API societeinfo](https://societeinfo.com/api-doc/)
+Bienvenue sur la sandbox societeinfo ! Vous trouverez ici un projet simple implémentant un formulaire d'autocomplétion d'entreprise
 
-* **Recherche par nom** — Recherche par nom d'entreprise en autocompletion ([doc api](https://societeinfo.com/api-doc/#autocomplete-company))
-* **Recherche d'informations complètes** — Récupération des informations sur l'entreprise à la sélection ([doc api](https://societeinfo.com/api-doc/#get-company))
+
+Cette sandbox implémente les services suivants de [l'API societeinfo](https://societeinfo.com/api-doc/)
+
+* **AutoComplete** — Recherche par SIREN/nom d'entreprise/ville en autocompletion ([doc api](https://societeinfo.com/api-doc/#autocomplete-company))
+* **GetCompany** — Récupération des informations complète de l'entreprise ([doc api](https://societeinfo.com/api-doc/#get-company))
 
 
 Intégration
@@ -20,17 +23,13 @@ Intégration
 var API_KEY  = 'YOUR_APIKEY';
 ```
 
-4. Désactivez le contrôle cross-domain de votre navigateur
-5. Cliquez sur le fichier index.html à la racine du projet
+4. Cliquez sur le fichier index.html à la racine du projet
 
-
-Dans chrome vous pouvez utiliser le plugin suivant pour la désactivation du CORS
-
-https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
 
 ### Déployez le projet en production
 
-L'API ne supporte pas le CORS pour des raisons de sécurités, vous devez configurer votre proxy web pour rediriger les requêtes societeinfo et ainsi cacher votre précieuse clé !
+En production nous recommandons de faire une redirection des requêtes API et ainsi cacher votre précieuse clé !
+C'est très simple :) le code javascript rendu sur vos pages doit exécuter des requêtes API vers votre serveur (nginx, apache) qui les redirigera ensuite vers nos urls.
 
 Exemple :
 
@@ -42,8 +41,8 @@ par
 
 https://votredomaine.com/app/rest/api/v2/companies.json/autocomplete?query=query
 
-Dans votre proxy (apache, nginx) configurez la redirection
 
+Enfin dans votre proxy (apache, nginx) configurez la redirection
 
 https://votredomaine.com/app/rest/api/v2/companies.json/autocomplete?query=query
 
@@ -67,3 +66,9 @@ Technologies
 Cette sandbox a été développée avec :
 * [jquery-ui-bootstrap](https://jquery-ui-bootstrap.github.io/jquery-ui-bootstrap/)
 * [easyautocomplete](http://easyautocomplete.com/)
+
+
+Nous contacter
+--------------
+
+N'hésitez pas à nous contacter ! contact@societeinfo.com
