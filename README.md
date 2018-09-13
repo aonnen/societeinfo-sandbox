@@ -13,8 +13,16 @@ Intégration
 ### Testez le projet
 
 1. Téléchargez/clonez le projet
-2. Insérez votre clé API dans le fichier assets/js/demo.js
-3. Désactivez le contrôle cross-domain de votre navigateur
+2. Si vous n'avez pas de compte societeinfo [inscrivez-vous](https://societeinfo.com/app/app/#/register?subscriptionName=Free)
+3. Dans fichier assets/js/demo.js, insérez votre clé d'API societeinfo
+
+```javascript
+var API_KEY  = 'YOUR_APIKEY';
+```
+
+4. Désactivez le contrôle cross-domain de votre navigateur
+5. Cliquez sur le fichier index.html à la racine du projet
+
 
 Dans chrome vous pouvez utiliser le plugin suivant pour la désactivation du CORS
 
