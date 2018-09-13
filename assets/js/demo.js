@@ -65,7 +65,7 @@ $(function () {
             dataType: "json"
         },
         listLocation: "result",
-        requestDelay: 300,
+        requestDelay: 150,
         theme: "bootstrap"
     };
 
