@@ -3,8 +3,8 @@ Sandbox
 
 Cette sandbox inclue les exemples suivants d'intégration de [l'API societeinfo](https://societeinfo.com/api-doc/)
 
-* **Recherche par nom** — Recherche par nom d'entreprise en autocompletion [(doc api)](https://societeinfo.com/api-doc/#autocomplete-company)
-* **Recherche d'informations complètes** — Récupération des informations sur l'entreprise à la sélection [(doc api)]https://societeinfo.com/api-doc/#get-company)
+* **Recherche par nom** — Recherche par nom d'entreprise en autocompletion ([doc api](https://societeinfo.com/api-doc/#autocomplete-company))
+* **Recherche d'informations complètes** — Récupération des informations sur l'entreprise à la sélection ([doc api](https://societeinfo.com/api-doc/#get-company))
 
 
 Intégration
