@@ -39,12 +39,12 @@ https://societeinfo.com/app/rest/api/v2/companies.json/autocomplete?query
 
 par
 
-https://votredomaine.com/app/rest/api/v2/companies.json/autocomplete?query=query
+https://votredomaine.com/autocomplete?query=query
 
 
 Enfin dans votre proxy (apache, nginx) configurez la redirection
 
-https://votredomaine.com/app/rest/api/v2/companies.json/autocomplete?query=query
+https://votredomaine.com/autocomplete?query=query
 
 vers
 
