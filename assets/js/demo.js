@@ -1,5 +1,7 @@
 $(function () {
 
+    //Set your personal societeinfo API KEY here !
+    //For production use, please refer to the documentation https://github.com/aonnen/societeinfo-sandbox
     var API_KEY  = 'YOUR_APIKEY';
 
     var options = {
