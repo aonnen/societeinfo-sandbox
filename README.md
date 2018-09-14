@@ -16,7 +16,7 @@ Installation du projet
 ### Testez le projet
 
 1. Si vous n'avez pas de compte societeinfo [inscrivez-vous](https://societeinfo.com/app/app/#/register?subscriptionName=Free) et récupérez votre clé API dans votre dashboard
-2. [Téléchargez](https://github.com/aonnen/societeinfo-sandbox/archive/master.zip) ou [clonez](https://github.com/aonnen/societeinfo-sandbox.git) le projet
+2. [Téléchargez](https://github.com/aonnen/societeinfo-sandbox/archive/master.zip) ou clonez le projet avec git
 3. Dézippez le projet
 4. Dans le fichier assets/js/demo.js, insérez votre clé d'API societeinfo
 
